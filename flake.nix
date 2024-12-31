@@ -81,8 +81,8 @@
     packages.aarch64-darwin.withStoreImage = self.nixosConfigurations.vm-aarch64-storeImage.config.system.build.vm;
   };
 
-  nixConfig = {
-    extra-substituters = [ "https://yoriksar-gh.cachix.org" ];
-    extra-trusted-public-keys = [ "yoriksar-gh.cachix.org-1:YrztCV1unI7qDV6IXmiXFig5PgptqTlUa4MiobULGT8=" ];
-  };
+#  nixConfig = {
+#    extra-substituters = [ "https://yoriksar-gh.cachix.org" ];
+#    extra-trusted-public-keys = [ "yoriksar-gh.cachix.org-1:YrztCV1unI7qDV6IXmiXFig5PgptqTlUa4MiobULGT8=" ];
+#  };
 }
