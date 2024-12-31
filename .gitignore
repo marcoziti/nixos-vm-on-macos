@@ -1,2 +1,5 @@
 /result*
 /nixos.qcow2
+nixos.qcow2
+keys/builder_ed25519
+keys/builder_ed25519.pub
